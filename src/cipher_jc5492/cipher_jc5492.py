@@ -1,15 +1,27 @@
 def cipher(text, shift, encrypt=True):
-	'''
-	Takes a string and encrypts (or decrypts) it using the Caesae cipher. 
+	'''Takes a string and encrypts (or decrypts) it using the Caesae cipher. 
 	
-	Takes 3 arguments:
-	text - the text to be encrypted or decrypted
-	shift - the number of alphabets to shift each character in the string by
-	encrypt - True by default, for decryption use False
+	Parameters
+    ----------
+	text :  String
+        string to be encrypted or decrypted
+	shift : Integer
+        the number of alphabets to shift each character in the string by        
+	encrypt : Boolean
+        True by default, for decryption use False
 	
-	For example,
-	cipher("Hello",1) returns Ifmmp
-	This can be reversed to get back "Hello" using cipher("Ifmmp",1,encrypt=False)
+	Returns
+    -------
+    string
+        The encrypted/decrypted string
+
+    Examples
+    --------
+	>>> from cipher_jc5492 import cipher
+    >>> cipher("hello",1)
+    ifmmp
+    >>> cipher("ifmmp",1,emcrypt=False)
+    hello
 	'''
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
