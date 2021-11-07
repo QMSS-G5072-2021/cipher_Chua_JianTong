@@ -1,7 +1,7 @@
 def cipher(text, shift, encrypt=True):
 	'''Takes a string and encrypts (or decrypts) it using the Caesae cipher. 
 	
-	Parameters
+Parameters
     ----------
 	text :  String
         string to be encrypted or decrypted
@@ -10,12 +10,12 @@ def cipher(text, shift, encrypt=True):
 	encrypt : Boolean
         True by default, for decryption use False
 	
-	Returns
+Returns
     -------
     string
         The encrypted/decrypted string
 
-    Examples
+Examples
     --------
 	>>> from cipher_jc5492 import cipher
     >>> cipher("hello",1)
