@@ -22,7 +22,7 @@ def cipher(text, shift, encrypt=True):
     ifmmp
     >>> cipher("ifmmp",1,emcrypt=False)
     hello
-	'''
+    '''
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
     for c in text:
