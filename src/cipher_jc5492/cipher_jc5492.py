@@ -1,5 +1,5 @@
 def cipher(text, shift, encrypt=True):
-    '''Takes a string and encrypts (or decrypts) it using the Caesae cipher. 
+    '''Takes a string and encrypts (or decrypts) it using the Caesar cipher. 
 	
     Parameters
     ----------
@@ -20,7 +20,7 @@ def cipher(text, shift, encrypt=True):
 	>>> from cipher_jc5492 import cipher
     >>> cipher("hello",1)
     ifmmp
-    >>> cipher("ifmmp",1,emcrypt=False)
+    >>> cipher("ifmmp",1,encrypt=False)
     hello
     '''
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
