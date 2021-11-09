@@ -1,0 +1,23 @@
+:py:mod:`cipher_jc5492`
+=======================
+
+.. py:module:: cipher_jc5492
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   cipher_jc5492/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+

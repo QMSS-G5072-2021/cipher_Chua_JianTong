@@ -1,0 +1,47 @@
+:py:mod:`cipher_jc5492.cipher_jc5492`
+=====================================
+
+.. py:module:: cipher_jc5492.cipher_jc5492
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_jc5492.cipher_jc5492.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   Takes a string and encrypts (or decrypts) it using the Caesar cipher.
+
+   :param text:
+   :type text: String
+   :param string to be encrypted or decrypted:
+   :param shift:
+   :type shift: Integer
+   :param the number of alphabets to shift each character in the string by:
+   :param encrypt:
+   :type encrypt: Boolean
+   :param True by default:
+   :param for decryption use False:
+
+   :returns: The encrypted/decrypted string
+   :rtype: string
+
+   .. rubric:: Examples
+
+   >>> from cipher_jc5492 import cipher
+
+   >>> cipher("hello",1)
+   ifmmp
+   >>> cipher("ifmmp",1,encrypt=False)
+   hello
+
+
